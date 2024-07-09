@@ -11,4 +11,8 @@ const Gallery = ({ teamMembers }) => {
   );
 };
 
-export default Gallery;
+const Header = ({ title }) => {
+  return <h1>{title}</h1>;
+};
+
+export { Gallery as default, Header };
